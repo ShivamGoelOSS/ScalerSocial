@@ -1,0 +1,309 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+}
+nav{
+    display: flex;
+    padding-top: 1rem;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid lightgray;
+}
+.logo-left{
+    margin-left: 3rem;
+    padding-bottom: 1rem;
+}
+.logo-right{
+    margin-right: 3rem;
+    padding-bottom: 1rem;
+}
+.hero-section{
+    display: flex;
+    margin-top: 71px;
+}
+.hero-left{
+    background-color:#F7FCFF;
+    width: 50vw;
+    height:91.7vh;
+    position: fixed;
+    top: 4.5rem;
+}
+.content-block{
+    margin-left: 10rem;
+    margin-top: 18rem;
+    font-weight: 550;
+    font-size: large;
+    border: none;
+}
+#post{
+    color: rgb(67, 67, 67);
+}
+.hero-left .write-block{
+    border: 1px solid lightgray;
+}
+.write-block{
+    background-color: white;
+    height: 30vh;
+    width: 30vw;
+    border-radius: 0.5rem;
+    border: none;
+    margin-top: 1.4rem;
+}
+.top-block{
+    margin-top: 1rem;
+    display: flex;
+    border-bottom: 0.1rem solid lightgray;
+    padding: 0.4rem;
+    justify-content: space-between;
+    margin-left:1rem ;
+}
+.user-img{
+    height: 60px;
+    margin-top: 1rem;
+}
+#Write-text{
+    width: 25vw;
+    height: 15vh;
+    margin-top: 1rem;
+    border: none;
+    padding: 1rem;
+    font-size: large;
+}
+.bottom-block{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+#char-counter{
+    display: flex;
+    align-items: flex-end;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.6);
+}
+#Post-button{
+    background-color: darkblue;
+    border-radius: 3rem;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: large;
+}
+.hero-right{
+    width: 50vw;
+    height: 90vh;
+    font-weight: 550;
+    font-size: large;
+    margin-left: 50vw;
+}
+.main-cont{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+#feed{
+    color: rgb(70, 70, 70);
+}
+.tweet-container{
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+#nothing{
+    color:  rgba(0, 0, 0, 0.6);
+    margin-top: 3vh;
+    display: block;
+}
+.tweet{
+
+}
+.main-tweet{
+    border: 1px solid darkgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 20vh;
+    display: flex;
+    margin-top: 3vh;
+}
+.main-tweet img{
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+.main-tweet-edit{
+    border: 1px solid darkgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 20vh;
+    margin-top: 3vh;
+}
+.main-tweet-edit img{
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+.top-block-edit{
+    display: flex;
+    border-bottom: 0.1rem solid lightgray;
+    justify-content: space-between;
+}
+.user-img-edit{
+    height: 60px;
+}
+#Write-text-edit{
+    width: 25vw;
+    height: 10vh;
+    margin-top: 1rem;
+    border: none;
+    padding: 1rem;
+    font-size: large;
+    margin-right: 12rem;
+}
+.bottom-block-edit{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+#char-counter-edit{
+    display: flex;
+    align-items: flex-end;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.6);
+}
+#Cancel-button-edit{
+    background-color: white;
+    border-radius: 3rem;
+    color: rgba(0, 0, 0, 0.6);
+    width: 120px;
+    height: 40px;
+    font-size: large;
+    margin-left: 20rem;
+}
+#Post-button-edit{
+    background-color: darkblue;
+    border-radius: 3rem;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: large;
+}
+.tweet-right{
+    width: 230px;
+}
+.top-right-tweet{
+    margin-left: 1rem;
+    display: flex;
+    margin-top: 0.3rem;
+    width: 540px;
+    margin-bottom: 1rem;
+}
+.name-id{
+    margin-top: 1.5rem;
+}
+#user-id{
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 0.5rem;
+}
+#time{
+    color: rgba(0, 0, 0, 0.6);
+}
+.edit-delete{
+    margin-left: 2rem;
+}
+#tweet-content{
+    margin-left: 1rem;
+    overflow-wrap: break-word; 
+    display: block;
+    width: 450px; 
+}
+.Comment-container{
+    margin-left: 11rem;
+    margin-top: -1px;
+}
+.write-comment{
+    display: none;
+    border: 1px solid darkgray;
+    height: 25vh;
+    border-bottom: 1px solid darkgray;
+}
+.write-comment .write-block{
+    height: 20vh;
+}
+#input-comment{
+    height: 11.5vh;
+    width: 25vw;
+    margin-top: 1rem;
+    border: none;
+    padding: 1rem;
+    font-size: large;
+}
+#comment-char-counter{
+    display: flex;
+    align-items: flex-end;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.6);
+}
+#Cancel-button{
+    background-color: white;
+    border-radius: 3rem;
+    color: rgba(0, 0, 0, 0.6);
+    width: 120px;
+    height: 40px;
+    font-size: large;
+    margin-left: 10rem;
+}
+#Comment-button{
+    background-color: darkblue;
+    border-radius: 3rem;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: large;
+}
+.reply{
+    border: 1px solid darkgray;
+    height: 20vh;
+    display: flex;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.reply img{
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+.comment{
+    margin-top: -1px;
+}
+#tweet-content{
+    font-weight: 400;
+    outline: none;
+}
+.comment .bottom-right-tweet img{
+    margin-left: 15px;
+}
+textarea{
+    resize: none;
+    outline: none;
+}
+.comment .main-tweet{
+    border-radius: 0rem;
+}
+.bottom-right-tweet{
+    width: 100px;
+}
+.bottom-right-tweet img{
+    height:20px;
+}
