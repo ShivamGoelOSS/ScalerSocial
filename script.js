@@ -188,7 +188,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
                     </div>
                     <div class="edit-delete">
                         <img class="edit" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/028/original/edit.png?1706888661" alt="">
-                        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/027/original/delete.png?1706888643" alt="">
+                        <img class="delete" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/027/original/delete.png?1706888643" alt="">
                     </div>
                 </div>
                 <span contenteditable="false" id="tweet-content">${inputText}</span>
@@ -220,7 +220,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
                     </div>
                     <div class="edit-delete">
                         <img class="edit" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/028/original/edit.png?1706888661" alt="">
-                        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/027/original/delete.png?1706888643" alt="">
+                        <img class="delete" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/027/original/delete.png?1706888643" alt="">
                     </div>
                 </div>
                 <span contenteditable="false" id="tweet-content">${inputText}</span>
