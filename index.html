@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- red shar counter main -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -41,80 +40,22 @@
                 <span id="feed">Your Feed</span>
                 <span id="nothing">Nothing to show here ... </span>
                 <div class="tweet-container">
-                    <!-- <div class="tweet">
-                        <div class="main-tweet">
-                            <img class="user-img" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt="">
-                            <div class="tweet-right">
-                                <div class="top-right-tweet">
-                                    <div class="name-id">
-                                        <span id="user-name">Joanne Graham</span>
-                                        <span id="user-id">@joannegraham123</span>
-                                        <span id="time">&#183; ${day} ${month}</span>
-                                    </div>
-                                    <div class="edit-delete">
-                                        <img class="edit" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/028/original/edit.png?1706888661" alt="">
-                                        <img class="delete" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/027/original/delete.png?1706888643" alt="">
-                                    </div>
-                                </div>
-                                <span contenteditable="false" id="tweet-content">${content}</span>
-                                <div class="bottom-right-tweet">
-                                    <img class="com-icon" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/026/original/comment.png?1706888619" alt="">
-                                    <img class="heart" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/029/original/heart.png?1706888679" alt="">
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="main-tweet-edit">
-                            <div class="top-block-edit">
-                                <img class="user-img-edit" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt="">
-                                <textarea name="Write-text-edit" id="Write-text-edit" cols="30" rows="10" placeholder="Type your thoughts here....." maxlength="100">${editContent}</textarea>
-                            </div>
-                            <div class="bottom-block-edit">
-                                <span id="char-counter-edit">${editContent.length} / 100</span>
-                                <button id="Cancel-button-edit">Cancel</button>
-                                <button id="Post-button-edit">Post</button>
-                            </div>
-                        </div>
-                        <div class="Comment-container">
-                            <div class="write-comment">
-                                <div class="write-block">
-                                    <div class="top-block">
-                                        <img class="user-img" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt="">
-                                        <textarea name="input-comment" id="input-comment" cols="30" rows="10" placeholder="Type your thoughts here....." maxlength="100"></textarea>
-                                    </div>
-                                    <div class="bottom-block">
-                                        <span id="comment-char-counter">0 / 100</span>
-                                        <button id="Cancel-button">Cancel</button>
-                                        <button id="Comment-button">Comment</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="comment">
-                                <div class="reply">
-                                    <img class="user-img" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt="">
-                                    <div class="tweet-right">
-                                        <div class="top-right-tweet">
-                                            <div class="name-id">
-                                                <span id="user-name">Joanne Graham</span>
-                                                <span id="user-id">@joannegraham123</span>
-                                                <span id="time">&#183; ${day} ${month}</span>
-                                            </div>
-                                            <div class="edit-delete">
-                                                <img class="edit-comment" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/028/original/edit.png?1706888661" alt="">
-                                                <img class="delete-comment" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/027/original/delete.png?1706888643" alt="">
-                                            </div>
-                                        </div>
-                                        <span contenteditable="false" id="tweet-content">${content}</span>
-                                        <div class="bottom-right-tweet">                                        
-                                            <img class="heart" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/029/original/heart.png?1706888679" alt="">
-                                        </div>
-                                    </div>   
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
     </section>
+    <div class="overlay">
+        <div class="overlay-delete">
+            <div class="delete-icon-cross">
+                <img class="delete-solid-icon" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/030/original/delete-color-filled.png?1706888714" alt="">
+                <span id="crossButton">&times;</span>
+            </div>
+            <span id="confirm-delete">Are you sure you want to permanently delete this tweet ?</span>
+            <div class="overlay-buttons">
+                <button id="cancel-delete">Cancel</button>
+                <button id="delete-delete">Delete</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
